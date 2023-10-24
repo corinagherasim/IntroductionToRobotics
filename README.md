@@ -2,9 +2,9 @@
 
 Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. Each homework includes requirements, implementation details, code and image file and other things depending on the case. They will have a description written down below:
 
-# <strong> Homework #1: Controlling an RGB Led </strong>
+<strong> Homework #1: Controlling an RGB Led </strong>
 
-#Components Used:
+Components Used:
 
 * 1x RGB Led
 * 3x Potentiometers
