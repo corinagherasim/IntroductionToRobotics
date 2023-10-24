@@ -20,4 +20,4 @@ Use a separate potentiometer for controlling each color of the RGB LED:Red,Green
 
 ### Youtube link presenting the homework: <a href= "https://youtube.com/shorts/TKrzJHekS78?si=Onj5sHFCqPesFDtI"> Click here </a>
 
-### Photos: <img src=""
+### Photos: <img src="C:\Users\Corina\Documents\facultate\robotica\teme\hw1\robotica-hw#1(1).jpeg">
