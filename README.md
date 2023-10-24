@@ -21,8 +21,5 @@ Use a separate potentiometer for controlling each color of the RGB LED:Red,Green
 ### Youtube link presenting the homework: <a href= "https://youtube.com/shorts/TKrzJHekS78?si=Onj5sHFCqPesFDtI"> Click here </a>
 
 ### Photos:
-<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/94d7bab1-aed2-4021-971a-0569af257e3d" width="10" height="10">
-![robotica-hw#1(1)](https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/94d7bab1-aed2-4021-971a-0569af257e3d)
-![robotica-hw#1(2)](https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/605db853-76f4-482d-bd08-2b4b7a755bf4)
-![robotica-hw#1(3)](https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/978c6b74-acd9-45fa-83cc-74c3e873e73e)
-
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/94d7bab1-aed2-4021-971a-0569af257e3d" width="500" height="500">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/605db853-76f4-482d-bd08-2b4b7a755bf4" width="500" height="500">
