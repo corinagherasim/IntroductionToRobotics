@@ -4,7 +4,7 @@ Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Facu
 
 #<strong> Homework #1: Controlling an RGB Led </strong>
 
-Components Used:
+### Components Used:
 
 * 1x RGB Led
 * 3x Potentiometers
@@ -13,4 +13,7 @@ Components Used:
 * 3x 220&#8486; rezistors
 * many wires
 
-Wokwi Implementation: <a href= "https://wokwi.com/projects/379391396363897857"> Click here </a>
+### Wokwi Implementation: <a href= "https://wokwi.com/projects/379391396363897857"> Click here </a>
+
+### Technical Task:
+Use a separate potentiometer for controlling each color of the RGB LED:Red,Green, andBlue.  This control must leveragedigital electronics.  Specifically,you  need  to  read  the  potentiometer’s  value  with  Arduino  and  then  write  amapped value to the LED pins.
