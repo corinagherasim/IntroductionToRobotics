@@ -48,8 +48,14 @@ Design  a  control  system  that  simulates  a  3-floor  elevator  using  the  A
 * State Change & Timers: If the elevator is already at the desired floor,pressing the button for that floor should have no effect.  Otherwise, aftera button press, the elevator should ”wait for the doors to close” and then”move”  to  the  corresponding  floor.   If  the  elevator  is  in  movement,  itshould either do nothing or it should stack its decision (get to the firstprogrammed floor,  open the doors,  wait, close them and then go to thenext desired floor).
 * Debounce: Remember to implement debounce for the buttons to avoidunintentional repeated button presses.
   
-### Wokwi Implementation: (not finished)
+### Wokwi Implementation: <a href= "https://wokwi.com/projects/380141359615915009"> Click here </a>
 
-### Youtube link presenting the homework: (not finished)
+### Youtube link presenting the homework: <a href= "https://youtube.com/shorts/oiq6_3mm_4U?si=GGP5qF4VtxzpSHbG"> Click here </a>
 
-### Photos: (not finished)
+### Photos:
+<p float = "left">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/b38acdc8-ab6c-49d4-8af7-53e992c682b7" width="49%" height="500">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/c7eb517b-4318-493b-bff0-fa7e81927b0b" width="49%" height="500">
+</p>
+
+
