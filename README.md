@@ -58,4 +58,32 @@ Design  a  control  system  that  simulates  a  3-floor  elevator  using  the  A
 <image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/c7eb517b-4318-493b-bff0-fa7e81927b0b" width="49%" height="500">
 </p>
 
+# Homework #3: 7 segment display drawing </strong>
+
+### Components Used:
+
+* 1x 7 segment display
+* 1x Joystick
+* 1x Arduino Uno
+* 1x Half breadboard
+* 8x 220&#8486; rezistors
+* many wires
+
+### Technical Task:
+You will use the joystick to control the position ofthe segment and ”draw” on the display.  The movement between segmentsshould be natural, meaning they should jump from the current positiononly to neighbors, but without passing through ”walls”.
+The  initial  position  should  be  on  the  DP.  The  currentposition always blinks (irrespective of the fact that the segment is on oroff).  Use the joystick to move from one position to neighbors (see table forcorresponding movement).  Short pressing the button toggles the segmentstate  from  ON  to  OFF  or  from  OFF  to  ON.  Long  pressing  the  buttonresets the entire display by turning all the segments OFF and moving thecurrent position to the decimal point.
+
+### The moves for each segment:
+<p float = "left">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/b64e3250-a3ff-4ae3-849b-a10e6f659414" width="69%" height="500">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/3c6fa0c9-a268-4961-8cfd-13e29018494c" width="29%" height="500">
+</p>
+
+### Youtube link presenting the homework: <a href= "https://youtube.com/shorts/HsakrfMFFGg?si=RIqajCSwfyVJIkH9"> Click here </a>
+
+### Photos:
+<p float = "left">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/cf49ff0c-7686-44d8-838a-ff1c919c1ca5" width="49%" height="500">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/a03f1342-75a6-4686-9b86-9bb5232f78b6" width="49%" height="500">
+</p>
 
