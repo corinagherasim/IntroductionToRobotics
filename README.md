@@ -87,3 +87,29 @@ The  initial  position  should  be  on  the  DP.  The  currentposition always bl
 <image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/a03f1342-75a6-4686-9b86-9bb5232f78b6" width="49%" height="500">
 </p>
 
+# Homework #4: Stopwatch Timer </strong>
+
+### Components Used:
+
+* 1x 4-digit 7 segment display
+* 1x Arduino Uno
+* 1x Half breadboard
+* 3x Buttons
+* 1x Led
+* 1x Shift Register: 74HC595
+* 8x 220&#8486; rezistors
+* many wires
+
+### Technical Task:
+Using the 4 digit 7 segment display and 3 buttons,you should implement a stopwatch timer that counts in 10ths of a secondand has a save lap functionality (similar to most basic stopwatch functionson most phones).T he starting value of the 4 digit 7 segment display shouldbe ”000.0”.  Your buttons should have the following functionalities:
+* Button 1:  Start / pause;
+* Button  2:   Reset  (if  in  pause  mode).   Reset  saved  laps  (if  in  lapviewing mode);
+* Button 3:  Save lap (if in counting mode), cycle through last savedlaps (up to 4 laps).
+
+### Youtube link presenting the homework: <a href= "https://youtube.com/shorts/pwVVdbKgEe4?si=tifyem3schArTnf6"> Click here </a>
+
+### Photos:
+<p float = "left">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/8eea63f3-3377-4143-b24a-5e0d6b578273" width="49%" height="500">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/8e2fb165-4863-4622-a1d3-569e7ea12055" width="49%" height="500">
+</p>
