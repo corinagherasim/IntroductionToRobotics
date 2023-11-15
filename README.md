@@ -101,7 +101,7 @@ The  initial  position  should  be  on  the  DP.  The  currentposition always bl
 * many wires
 
 ### Technical Task:
-Using the 4 digit 7 segment display and 3 buttons,you should implement a stopwatch timer that counts in 10ths of a secondand has a save lap functionality (similar to most basic stopwatch functionson most phones).T he starting value of the 4 digit 7 segment display shouldbe ”000.0”.  Your buttons should have the following functionalities:
+Using the 4 digit 7 segment display and 3 buttons,you should implement a stopwatch timer that counts in 10ths of a second and has a save lap functionality (similar to most basic stopwatch functions on most phones).The starting value of the 4 digit 7 segment display should be ”000.0”.  Your buttons should have the following functionalities:
 * Button 1:  Start / pause;
 * Button  2:   Reset  (if  in  pause  mode).   Reset  saved  laps  (if  in  lapviewing mode);
 * Button 3:  Save lap (if in counting mode), cycle through last savedlaps (up to 4 laps).
