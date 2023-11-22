@@ -113,3 +113,53 @@ Using the 4 digit 7 segment display and 3 buttons,you should implement a stopwat
 <image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/8eea63f3-3377-4143-b24a-5e0d6b578273" width="49%" height="500">
 <image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/8e2fb165-4863-4622-a1d3-569e7ea12055" width="49%" height="500">
 </p>
+
+# Homework #5: Pseudo-Smart Environment Monitor and Logger </strong>
+
+### Components Used:
+
+* 1x LDR (Light-Dependent Resistor) aka Photocell aka Photoresistor aka LightSensor
+* 1x Ultrasonic Sensor (HC-SR04)
+* 1x Arduino Uno
+* 1x Half breadboard
+* 1x RGB Led
+* 2x 5k&#8486; rezistors
+* many wires
+
+### Technical Task:
+Develop a ”Smart Environment Monitor and Logger” using Arduino.  This sys-tem will utilize various sensors to gather environmental data, log this data intoEEPROM, and provide both visual feedback via an RGB LED and user interac-tion through a Serial Menu.  The project focuses on integrating sensor readings,memory management, Serial Communication and the general objective of build-ing a menu.
+
+### Menu Structure:
+1. Sensor Settings// Go to submenu
+   <ul>
+   <li>1.1 Sensors Sampling Interval.  Here you should be prompted fora value between 1 and 10 seconds.  Use this value as a sampling ratefor the sensors.  You can read a separate value for each or have thesame for both.
+   <li>1.2 Ultrasonic Alert Threshold.  Here you should be promptedfor a threshold value for the ultrasonic sensor.  You can decide if thatis the min or max value (you can signal that something is too close).When sensor value exceeds the threshold value,  an alert should begiven.  This can be in the form of a message.  If the LED is set toAutomatic Mode (see section 4.2), it should also turn red if any ofthe sensors are outside the value.
+   <li>1.3 LDR Alert Threshold.  Here you should be prompted for athreshold  value  for  the  LDR  sensor.   You  can  decide  if  that  is  themin or max value (for example, it could signal that night is coming).When sensor value exceeds the threshold value,  an alert should begiven.  This can be in the form of a message.  If the LED is set toAutomatic Mode (see section 4.2), it should also turn red if any ofthe sensors are outside the value.
+   <li>1.4 Back// Return to main menu
+   </ul>
+2. Reset Logger Data. Should  print  a  message,  promting  if  you  toconfirm to delete all  data.  Something like ”are you sure?”,  followed by the submenu with YES or NO. You can reset both sensor data at the same time, or you can do it individually.  Your choice.  Individually makes more sense, but I’m trying to simplify the homework.
+    <ul>
+   <li>2.1 Yes.
+   <li>2.2 No.
+   </ul>
+3. System Status// Check current status and health
+   <ul>
+   <li>3.1 Current Sensor Readings.Continuously print sensor readingsat the set sampling rate, from all sensors.  Make sure you have a wayto exit this (such as pressing a specific key) and inform the user ofthis method through a message.
+   <li>3.2 Current Sensor Settings.Displays  the  sampling  rate  andthreshold value for all sensors.
+   <li>3.3 Display Logged Data.Displays last 10 sensor readings for allsensors.  (or be creative and do it another way).
+   <li>3.4 Back.Return to Main menu.
+   </ul>
+4. RGB LED Control// Go to submenu
+   <ul>
+   <li>4.1 Manual Color Control.  Set the RGB colors manually.  You decide how to input them, either by making an option for each channel, or by putting a string etc.  If you expect a specific format, makesure to inform the user.
+   <li>4.2 LED: Toggle Automatic ON/OFF.  If  automatic  mode  is ON, then the led color should be GREEN when all sensors value donot exceed threshold values (aka no alert) and RED when there is analert (aka ANY sensor value exceeds the threshold). When automaticmode is OFF, then the LED should use the last saved RGB values.
+   <li>4.3 Back// Return to main menu
+   </ul>
+
+### Youtube link presenting the homework: <a href= ""> Click here </a>
+
+### Photos:
+<p float = "left">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/973946c8-def2-415f-a62c-843bbee5d309" width="49%" height="500">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/936e9209-781c-44fc-832f-75eefae2bbb6" width="49%" height="500">
+</p>
