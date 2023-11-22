@@ -216,7 +216,7 @@ void handleSensorSettingsOption(int option) {
           delay(100); // Introduce a short delay between readings
         }
 
-        averageReading = totalReadings / 5;
+        averageReading = totalReadings / 10;
         
       if (choiceAutomatic == 1) {
           if (averageReading < 100) {
