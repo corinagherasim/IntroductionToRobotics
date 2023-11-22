@@ -156,7 +156,7 @@ Develop a ”Smart Environment Monitor and Logger” using Arduino.  This sys-te
    <li>4.3 Back// Return to main menu
    </ul>
 
-### Youtube link presenting the homework: <a href= ""> Click here </a>
+### Youtube link presenting the homework: <a href= "https://youtu.be/19ljNF3NJJ0?si=SEBRYYLJVUIOlJQ6"> Click here </a>
 
 ### Photos:
 <p float = "left">
