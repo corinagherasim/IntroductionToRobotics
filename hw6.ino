@@ -201,7 +201,6 @@ void bomb() {
         lc.setLed(0, bombRow, bombCol + 1, false);
       }
 
-      // Turn off bomb LED after exploding
       lc.setLed(0, bombRow, bombCol, false);
       bombActive = false;
 
