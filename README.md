@@ -163,3 +163,33 @@ Develop a ”Smart Environment Monitor and Logger” using Arduino.  This sys-te
 <image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/973946c8-def2-415f-a62c-843bbee5d309" width="49%" height="500">
 <image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/936e9209-781c-44fc-832f-75eefae2bbb6" width="49%" height="500">
 </p>
+
+# Homework #6: Mini 8x8 LED Matrix game </strong>
+
+### Components Used:
+
+* 1x 8x8 LED Matrix
+* 1x Arduino Uno
+* 1x Half breadboard
+* 1x Mini breadboard
+* 1x Joystick
+* 1x Button
+* 1x Led
+* 1x Buzzer
+* 1x MAX7219
+* resistors and capacitors as needed
+* many wires
+
+### Technical Task:
+Develop a small game on the 8x8 matrix.  The game must have at least 3 types of elements:  player (blinks slowly),  bombs/bullets (blinks fast),  wall (doesn’t blink).  The purpose of this to get you started with your matrix project.  The basic idea is that you generate walls on the map (50% - 75% of the map) and then you move around with the player and destroy them.
+
+### Description of the game:
+There is a player that should go from the top left corner to the bottom right corner, then a new map is generated. To achieve that the player should destroy the walls by putting bombs next to them. The bomb destroys one wall from each side (up, down, left, right). When a bomb is planted the player has 3 seconds to move from next to it or the game restarts and a new map is generated. There is a buzzer that is on while the 3 seconds are running and there is a led that warns the player that he is next to the bomb.  
+
+### Youtube link presenting the homework: <a href= "https://youtu.be/oiDIB2WiACw?si=O7YTcUfS_33R5j8n"> Click here </a>
+
+### Photos:
+<p float = "left">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/9d5f9452-7532-44ff-aace-c860e0cd7160" width="49%" height="500">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/2b82c038-3cbd-4975-9821-c45d95614b2d" width="49%" height="500">
+</p>
