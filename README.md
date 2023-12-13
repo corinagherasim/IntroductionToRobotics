@@ -193,3 +193,50 @@ There is a player that should go from the top left corner to the bottom right co
 <image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/9d5f9452-7532-44ff-aace-c860e0cd7160" width="49%" height="500">
 <image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/2b82c038-3cbd-4975-9821-c45d95614b2d" width="49%" height="500">
 </p>
+
+# Homework #7: Mini 8x8 LED Matrix game </strong>
+
+### Components Used:
+
+* 1x 8x8 LED Matrix
+* 1x Arduino Uno
+* 1x Half breadboard
+* 1x Mini breadboard
+* 1x Joystick
+* 1x Button
+* 1x Led
+* 1x MAX7219
+* 1x LCD display
+* resistors and capacitors as needed
+* many wires
+
+### Technical Task:
+This is the checkpoint for the project. I should have the following functionalities:
+<li>1.Intro Message -  When  powering  up  the  project,  a  greeting  message should be shown for a few moments.
+<li>2.Menu:
+<ul>
+  <li>(a)Start game. Starts the initial level of
+  <li>(b)Settings.
+    <ul>
+    <li>(i) LCD  brightness  control.   Save  value  to  EEPROM  and  load  it upon system start.
+    <li>(ii) Matrix brightness control (see function setIntesnity from the led-Control library).  Make sure to display something on the matrix when  selecting  it.   Save  value  to  EEPROM  and  load  it  upon system start.
+    </ul>
+  <li>(c)About. Should include details about the creator(s) of the game.  At least game name, author and github link or user (use scrolling text?)
+</ul>
+<li>3.End Message - When the game ends, add a message.  Wait for a prompt from the user (a button push, for example), before returning to main menu again.
+<li>4.During gameplay:
+<ul>
+  <li>(a)  Show  relevant  details,  that  are  dynamic  (change  with  gameplay): time,  level,  lives etc.  Doesn’t matter,  what can be used.  You can implement the number of LEDs that are still switched on.
+  <li>(b)  Implement an end game / level functionality.  You current game should end.  For example,  if you implemented the game where you ”destroy”  all  the  LEDs,  it  should  end  when  you  finished  them  all. Upon ending, it should display the aforementioned message, wait for user prompt and then return to the main menu again.
+</ul>
+
+### Description of the game:
+There is a player that should go from the top left corner to the bottom right corner, then a new map is generated. To achieve that the player should destroy the walls by putting bombs next to them. The bomb destroys one wall from each side (up, down, left, right). When a bomb is planted the player has 3 seconds to move from next to it or the game restarts and a new map is generated. There is a led that warns the player that he is next to the bomb. To win the game the player should complete the map 2 times. It has 3 lives in the beggining which are shown on the LCD display and every time the player plants a bomb and doesn't move dies, loses a life, a new map is generated and the game goes from the beggining (even though the player completed the map one time it doesn't count anymore).
+
+### Youtube link presenting the homework: <a href= "https://youtu.be/2BLOe7zQbPM?si=UXhmKcuLUT5DYzeL"> Click here </a>
+
+### Photos:
+<p float = "left">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/5cc4a94b-a483-471a-bbc6-13329ce86c12" width="49%" height="500">
+<image src = "https://github.com/corinagherasim/IntroductionToRobotics/assets/94368761/f4d10b80-9719-43b2-b107-8abd317ea15c" width="49%" height="500">
+</p>
